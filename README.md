@@ -14,7 +14,7 @@ THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 
-#Description
+# Description
 
 sequelize was used in conjunction with express to allow proper routes for various requests needed to allow an update, delete, retrieval, and insertion of new data. Models were created via sequelize in order to build the required tables for the database to hold information. 
 
