@@ -29,7 +29,6 @@ router.get('/:id', (req, res) => {
     include: [ {
       model: Product,
       attributes: ['product_name']
-
     }]
   })
   .then(dbCategoryData => res.json(dbCategoryData))
